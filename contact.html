@@ -15,20 +15,36 @@
       <li><a href="index.html">Home</a></li>
     </ul>
 
-  <h1>Welcome To My Bio</h1>
-  <h2>Presented by Cody Osborne</h2>
+<h1>Thanks for Contacting Me!</h1>>
+<h2>I will respond to your request ASAP!</h2>
 
-  <div class="Story">
-    <img src="Images/Lover.jpg" alt="Me">
-    <h3>My Story</h3>
-    <p>I am a Student at OTC in the Infromation Technology associates degree, I am planning to transfer to MSU after the 2021 fall semester to further my education at MSU and earn my bachelor's degree from Missouri State in their field of Information Technology. I have a passion for computers and have had one sense 2008. I am currently looking for any hands on job experience I can find and hope to land a Internship with a promising company next year. I am a motivated individual and hope to excel in the computer industry and continue to grow my website experience!</p>
-  </div>
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Contact Method</label>
+    <select id="country" name="country">
+      <option value="australia">Email</option>
+      <option value="canada">Phone</option>
+      <option value="usa">Text</option>
+    </select>
+
+    <label for="response">Contact Information</label>
+      <input type="text" id="response">
 
 
+    <label for="subject">Request Reason</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-
-
-
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
